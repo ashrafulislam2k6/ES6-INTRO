@@ -31,3 +31,32 @@ function sum( x, y, z){
 // console.log(sum(params));  এইটা কাজ করবে না ? এইখানে শুধু  একটা array ache. 
 console.log(sum(...params));
 
+
+// duble array e push kore dekhi ,spread operator.
+
+const firstVariable = [12, 44,44,55];
+const secondVariable = [...firstVariable];
+
+firstVariable.push(24,50);
+console.log(firstVariable);
+console.log(secondVariable);
+
+
+
+const arr1= [45, 35, 20, 11];
+const arr2= [...arr1];
+console.log(arr1[0], arr1[2], arr1[3]);
+console.log(arr1);
+console.log(arr2);
+
+
+// amra caile object diyeo try korte pari speared operator: 
+
+const  obj1 = {name: 'iPhone15pro', prise: '$999'};
+const obj2= {...obj1, dejegnation:'developer'};
+obj2.description= 'good';
+console.log(obj1);
+console.log(obj2);
+
+
+
