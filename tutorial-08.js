@@ -25,6 +25,7 @@ console.log(wrestling.samoOnFamily.group);
 
 
 // todo  2. bracket notation: 
+const oldBoss= 'vins macman';
 
 console.log(wrestling['worldChampion']);
 console.log(wrestling['samoOnFamily']['usos']);
@@ -36,4 +37,6 @@ console.log(wrestling['samoOnFamily']['group']);
 
 // console.log(wrestling.mondayNightRaw.smacdown);  error dibe.
 console.log(wrestling?.mondayNightRaw?.smacdown);
+
+
 

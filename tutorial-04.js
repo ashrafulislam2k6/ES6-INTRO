@@ -19,7 +19,7 @@ console.log(brotherAge(11,5,2));
  //* function expression:  function lekhar age call kora jabe na .
 
 //  console.log(parentAge(50,35)); not work !
- const parentAge=function (dadAge,momAge){
+ const parentAge= function (dadAge,momAge){
     const ageCalculate= dadAge + momAge;
     return ageCalculate;
  }
